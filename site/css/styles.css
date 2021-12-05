@@ -56,6 +56,18 @@ h2 {
 }
 /******************** Laptop **************************/
 @media (min-width: 992px) {
+  #section1 {
+    width: 28%
+  }
+
+  #section2 {
+    width: 28%
+
+  }
+
+  #section3 {
+    width: 28%
+  }
 
 }
 
