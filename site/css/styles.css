@@ -87,7 +87,7 @@ h2 {
 /******************** Mobile *************************/
 @media (min-width: 0px) and (max-width: 767px) {
   #section1, #section2, #section3 {
-    width: 100%
+    width: 90%
   }
 
   
