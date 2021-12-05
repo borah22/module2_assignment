@@ -74,13 +74,13 @@ h2 {
 /*********************** Tablet ***********************/
 @media (min-width: 768px) and (max-width: 991px) {
   #section1{
-    width: 45%
+    width: 40%
   }
   #section2 {
-    width: 45%
+    width: 40%
   }
   #section3 {
-    width: 95%;
+    width: 90%;
   }
 }
 
