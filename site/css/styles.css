@@ -1,0 +1,86 @@
+<style>
+
+h1 {
+  text-align: center;
+  bottom margin: 10px; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  width: 31%;
+  border: 2px solid black;
+  float: left;
+  background-color: gray;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  height: 250px;
+  align-content: center;
+  margin-top: 20px; 
+
+}
+
+
+h2 {
+  font-size: 15px;
+  height: 20px;
+  width: 100px;
+  border: 1px solid black;
+  position: absolute;
+  right:0px;
+  top:0px;
+  margin-block-start: 0em;
+  padding: 1px;
+  text-align: center;
+   
+}
+
+#h21 {
+  background-color: white;
+  
+
+
+}
+
+#h22 {
+  background-color: brown;
+}
+
+#h23 {
+  background-color: yellow;
+}
+#p1 {
+  clear: left
+}
+/******************** Laptop **************************/
+@media (min-width: 992px) {
+
+}
+
+/*********************** Tablet ***********************/
+@media (min-width: 768px) and (max-width: 991px) {
+  #section1{
+    width: 45%
+  }
+  #section2 {
+    width: 45%
+  }
+  #section3 {
+    width: 95%;
+  }
+}
+
+/******************** Mobile *************************/
+@media (min-width: 0px) and (max-width: 767px) {
+  #section1, #section2, #section3 {
+    width: 100%
+  }
+
+  
+}
+
+
+</style>
